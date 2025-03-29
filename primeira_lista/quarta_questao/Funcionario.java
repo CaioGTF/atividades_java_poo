@@ -1,6 +1,3 @@
-package p.registrofuncionarios;
-
-
 public class Funcionario {
     public String nome;
     private String departamento;

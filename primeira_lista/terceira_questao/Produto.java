@@ -1,5 +1,5 @@
 
-package p.produtos;
+
 
 public class Produto {
     private String nome;

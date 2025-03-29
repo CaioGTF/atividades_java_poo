@@ -1,5 +1,4 @@
 
-package p.registrofuncionarios;
 
 public class RegistroFuncionarios {
 

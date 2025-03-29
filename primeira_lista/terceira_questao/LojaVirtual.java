@@ -1,5 +1,4 @@
 
-package p.produtos;
 
 public class LojaVirtual {
      public static void main(String[] args) {

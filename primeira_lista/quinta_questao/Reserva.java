@@ -1,4 +1,4 @@
-package p.hotel;
+
 
 public class Reserva {
    private String nome;

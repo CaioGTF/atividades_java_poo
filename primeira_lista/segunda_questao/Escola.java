@@ -1,7 +1,5 @@
 
 
-package b.escola;
-
 
 public class Escola {
 
