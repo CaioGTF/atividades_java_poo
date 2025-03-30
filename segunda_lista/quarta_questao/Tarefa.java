@@ -10,7 +10,7 @@ public class Tarefa {
 
     public Tarefa(String descricao, boolean concluida, int prioridade){
         this.descricao = descricao;
-        this.concluida = concluida;
+        this.concluida = false;
         this.prioridade = prioridade;
     }
 
@@ -33,5 +33,29 @@ public class Tarefa {
         this.prioridade = prioridade;
     }
 
+    public void concluirTarefa(){
+        setConcluida(true);
+        System.out.println("Tarefa concluida com sucesso.");
+    }
     
+   public void mudarPrioridade(int novaPrioridade){
+        if(novaPrioridade == prioridade){
+            System.out.println("A prioridade não mudou");
+        } else{
+            prioridade = novaPrioridade;
+            System.out.println("Prioridade alterada.");
+        }
+   }
+
+   public void exibirTarefa(){
+    System.out.println("Descrição: "+descricao);
+    System.out.println("Concluída? "+concluida);
+    System.out.println("Prioridade: "+prioridade);
+   }
+
+
+   public void resetarTarefa(){
+    setConcluida(false);
+    System.out.println("Tarefa resetada.");
+   }
 }
